@@ -1,0 +1,29 @@
+First of all ,  disable code runner extension before writing Java program vs code :
+
+
+Class not found error or java.lang. error :
+- File name must be equal to the main class of a function if it is public( If not public program will work).
+- Give the correct path in terminal  
+--Edit Environment variable (Dont go to Edit Environment variable for your account  )
+
+
+Exception in thread "main" java.lang.NoSuchMethodError: Student: method 'void <init>()' not found  :
+-Try to Change class name 
+-Check whether main statement written in proper way or not
+-Try to compile program in seprate folder
+
+
+HashSet cannot be resolved to a type :
+close vs code and reopen it or delete file and recreate new file .
+
+- code below infinite while loop hey is unreachable
+
+- if we have to use Scanner class in a code and also below their is any loop or uconditional statement is returned then resource leak problem may occurs
+    use try(Scanner sc = new Scanner(System.in) 
+    Don't write a scanner constructor flash file
+
+-- write bitwise operator correctly 
+give the proper space between the variable and the number . Also give the bracket between two operation
+
+--navigate class 
+ ctrl + t --> Search class
