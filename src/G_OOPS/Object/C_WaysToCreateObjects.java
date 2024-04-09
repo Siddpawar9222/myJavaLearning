@@ -21,7 +21,7 @@ class LetsClone implements Cloneable {
 	}
 }
 
-public class WaysToCreateObjects {
+public class C_WaysToCreateObjects {
 
 	public static void main(String[] args) {
 //		1) Java new Operator

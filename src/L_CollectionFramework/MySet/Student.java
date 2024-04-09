@@ -32,12 +32,3 @@ public class Student {
     }
 
 }
-
-/*
- * If you want to represent any object as a string, toString() method used
- * without override toString method hashcode values of the objects will execute
- * but I want to print the values of these objects. Since Java compiler
- * internally calls toString() method, overriding this method will return the
- * specified values.
- * 
- */

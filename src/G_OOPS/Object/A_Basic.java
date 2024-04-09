@@ -15,11 +15,11 @@ class Animal {}
 class Cat extends Animal {}
 
 
-public class Basic {
+public class A_Basic {
 	public static void main(String[] args) {
 	    //getClass  
-		Basic b = new Basic();
-		Basic b1 =new Basic();
+		A_Basic b = new A_Basic();
+		A_Basic b1 =new A_Basic();
 		System.out.println(b.getClass());      //------>class G_OOPS.Object.Basic
 		//It returns the Class objects that represent the runtime class of this object.
 		
@@ -36,7 +36,8 @@ public class Basic {
 		
 //----------------------------------------------------------------------------
 //Typecasting in Objects
-		
+// Only when there is relationship of inheritance.
+
 //Typecasting in Java refers to the process of converting a value from one data type to another. In the case of objects, typecasting is used to convert an object of one class to another.
 // 1}Upcasting: Upcasting is when an object of a subclass is cast to its superclass type. This is always safe and does not require an explicit cast. For example:		
         //===================================//
@@ -59,7 +60,11 @@ public class Basic {
 }
 
 /*
-.class is used at the class level and provides information about the class itself.
-.getClass() is used at the object level and provides information about the runtime class of the object.
+- .class is used at the class level and provides information about the class itself.
+- .getClass() is used at the object level and provides information about the runtime class of the object.
+- Both gives information with fully qualified name .
+- The fully qualified name of a class is the name of the class prefixed with the package name.
+
+
 In general, you might use .class when you know the class at compile time, and you use getClass() when you want to determine the class of an object dynamically at runtime.
  */

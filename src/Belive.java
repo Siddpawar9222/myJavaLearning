@@ -1,8 +1,9 @@
 public class Belive {
-
-
-
   public static void main(String[] args) {
-    System.out.println(Character.isAlphabetic('1'));
+      Belive b = new Belive() ;
+      System.out.println(b.getClass());
+      System.out.println(b.getClass().getName());
+      System.out.println(Belive.class);
+      System.out.println(new Belive());
   }
 }

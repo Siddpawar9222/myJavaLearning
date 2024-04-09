@@ -1,4 +1,4 @@
-package G_OOPS.DynamicMethodDispatch;
+package G_OOPS.Polymorphism.DynamicMethodDispatch;
 
 class MathUtils {
 	public int add(int a, int b) {

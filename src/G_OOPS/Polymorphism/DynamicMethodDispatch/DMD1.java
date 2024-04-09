@@ -1,4 +1,4 @@
-package G_OOPS.DynamicMethodDispatch;
+package G_OOPS.Polymorphism.DynamicMethodDispatch;
 
 interface Grandparent1 {
 	void dance();
@@ -6,13 +6,13 @@ interface Grandparent1 {
 	void singer();
 }
 
-interface parent1 extends Grandparent1 {
+interface Parent1 extends Grandparent1 {
 	void actor();
 
 	void producer();
 }
 
-class Children implements parent1 {
+class Children implements Parent1 {
 
 	void director() {
 		System.out.println("Children Director");
@@ -47,8 +47,18 @@ public class DMD1 {
 		 Grandparent1 c = new Children();
          c.dance();
          c.singer();
-        // c.director() ;
+        // c.director() ;       //* 
          
-       ((parent1) c ).actor(); //casting
+        ((Parent1) c ).actor(); //casting
+	     ((Parent1)c).producer();
+		 ((Children) c).director();
 	}
 }
+/*
+//* -->
+  Grandparent1 c = new Children(); 
+  Parent class ref = instance
+
+  Here always keep in mind that Here i created reference of Grandparent1 type and assigned instance of Children class. So through c i can only access method of Grandparent1 type(with implementation if Children class) . 
+  To access children method we need to use typecasting .
+ */

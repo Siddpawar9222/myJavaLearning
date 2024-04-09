@@ -1,4 +1,4 @@
-package G_OOPS.DynamicMethodDispatch;
+package G_OOPS.Polymorphism.DynamicMethodDispatch;
 class Animal {
     int money=51541 ;
 
