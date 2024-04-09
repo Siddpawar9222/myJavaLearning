@@ -45,13 +45,13 @@ class Employee implements Cloneable {
         return "Employee [id=" + id + ", name=" + name + ", skills=" + skills + "]";
     }
      
-    //For Shallow copy
+    //  For Shallow copy
     // @Override
     // public Object clone() throws CloneNotSupportedException {
     //     return super.clone();
     // }
     
-    //Deep copy
+   //// Deep copy
     @Override
     protected Object clone() throws CloneNotSupportedException {
         Employee emp = (Employee)super.clone(); 
@@ -68,12 +68,13 @@ public class C_TypesOfCopy {
 
         Employee e1 = new Employee(111, "Joe Doe", Arrays.asList("UI/UX", "JavaScript"));
         
+        System.out.println("Shallow copy...");
         //Shallow copy
         Employee e2 = (Employee) e1.clone();
 
         System.out.println("Before Changes...");
         System.out.println("e1 " + e1);
-        System.out.println("e1 " + e2);
+        System.out.println("e2 " + e2);
 
         e1.setSkills("React-Js");
         // e2.setSkills("React-Js");
@@ -81,8 +82,9 @@ public class C_TypesOfCopy {
 
         System.out.println("After Changes...");
         System.out.println("e1 " + e1);
-        System.out.println("e1 " + e2);
-
+        System.out.println("e2 " + e2);
+         
+        System.out.println("Deep Copy...");
         //Deep Copy
         Employee e3 = new Employee(1555, "Alis Parry", Arrays.asList("Python","MogoDB"));
         Employee e4 = (Employee)e3.clone();
@@ -92,9 +94,6 @@ public class C_TypesOfCopy {
         System.out.println("After Changes...");
         System.out.println("e3 " + e3);
         System.out.println("e4 " + e4);
-
-
-
 
 
     }

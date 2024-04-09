@@ -53,7 +53,7 @@ public class B_EqualsAndHashCode {
     }
 }
 /*
--equals() method : 
+- equals() method : 
 Object class defined equals() method like this(default implementation):
 
 public boolean equals(Object obj) {
@@ -95,7 +95,7 @@ s3 roll_no is 56, already present in hashtable, so now s1 will compare with s3, 
    56  ------------------>  s1
    61  ------------------>  s2
 
-   
+
 toString() method :
 Default Implementation : 
 

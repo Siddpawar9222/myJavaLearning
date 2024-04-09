@@ -1,4 +1,4 @@
-package G_OOPS;
+package G_OOPS.Abstract;
 
 public class AbstractionVsEncapsulation {
     

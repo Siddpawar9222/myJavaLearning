@@ -1,4 +1,4 @@
-package G_OOPS;
+package G_OOPS.Constructor;
 // Example when i should use setters getters and where constructors
 // Answar-------->
 // Suppose you are designing a BankAccount class in Java to represent a customer's bank account. The class has three private instance variables: accountNumber, balance, and accountType.

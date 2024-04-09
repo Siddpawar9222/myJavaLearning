@@ -45,27 +45,32 @@ public class A_Basic {
     public static void main(String[] args) {
         
         //Creating an object
+        System.out.println("Creating an object...");
         TV remote1 = new TV("samsung", "smart tv");
         TV remote2 = remote1;
         System.out.println("remote1 " + remote1);
         System.out.println("remote2 " + remote2);
         
         //Changing an object
+        System.out.println("Changing an object...");
         remote2.setMode("antroid tv");
         System.out.println("remote1 " + remote1);
         System.out.println("remote2 " + remote2);
         
         //Assigning an object
-        // remote2 = new TV("Toshiba", "Traditional tv");
-        // System.out.println("remote1 " + remote1);
-        // System.out.println("remote2 " + remote2);
+         System.out.println("Assigning an object...");
+        remote2 = new TV("Toshiba", "Traditional tv");
+        System.out.println("remote1 " + remote1);
+        System.out.println("remote2 " + remote2);
 
         // Passing object In modifyTv method
+        System.out.println("Passing object In modifyTv method...");
         A_Basic.modifyTv(remote2);
         System.out.println("remote1 " + remote1);
         System.out.println("remote2 " + remote2);
 
         // Passing object In assignTv method
+        System.out.println("Passing object In assignTv method...");
         A_Basic.assignTv(remote2);
         System.out.println("remote1 " + remote1);
         System.out.println("remote2 " + remote2);
