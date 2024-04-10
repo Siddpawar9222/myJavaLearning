@@ -7,6 +7,7 @@ abstract class Vehicle{
     public Vehicle(){
 
     }
+    
     public Vehicle(String color, int maxSpeed){
           this.color=color;
           this.maxSpeed=maxSpeed;

@@ -33,12 +33,12 @@ class D  implements B , C{
      @Override
      public void doSomething(){
             System.out.println("D's doing something"); 
-     } 
+     }
 }
 
 
 
-public class B_DiamondProblem {
+public class C_DiamondProblem {
       public static void main(String[] args) {
            A d = new D() ;
            d.doSomething();
@@ -48,10 +48,10 @@ public class B_DiamondProblem {
 
 /*
  - Here we used default method in interface
- - We know that default method is not neccessary(compulsory) to implement in class
+ - We know that default method is not neccessary(compulsory) to implement in subclass.
  - still this code giving me error 
       class D  implements B , C{ }
- - Because  here compiler comfuse which method should i use either B's or C's 
+ - Because  here compiler comfuse which method should  use either B's or C's 
   -By interface we solved this problem  
   
 Note: Since both interfaces have the same method signature, it doesn't matter which interface the class explicitly implements; the class will be implementing the method only once.

@@ -1,4 +1,4 @@
-package G_OOPS.InnnerClasses;
+package G_OOPS.NestedClasses;
  class Test{
     protected interface Yes{
 		void show();
@@ -9,7 +9,6 @@ package G_OOPS.InnnerClasses;
 
 	@Override
 	public void show() {
-		// TODO Auto-generated method stub
 		
 	}
 	*/
@@ -41,7 +40,7 @@ class TestingAgain implements Xyz.InnerDemo{
 }
 	
 }
-public class C_InnerInterface {
+public class E_InnerInterface {
 
 	public static void main(String[] args) {
 	Testing t = new Testing();

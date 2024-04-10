@@ -54,7 +54,8 @@ public class B_EqualsAndHashCode {
 }
 /*
 - equals() method : 
-Object class defined equals() method like this(default implementation):
+- The equals() method is used to compare two objects for equality.
+- Object class defined equals() method like this(default implementation):
 
 public boolean equals(Object obj) {
         return (this == obj);
@@ -63,7 +64,8 @@ public boolean equals(Object obj) {
 means compare object based on reference(Memory allocation).
 
 - hashCode() method :
-Default hashCode generates different hash codes for different memory addresses
+-The hashCode() method is used to generate a hash code value for an object(unique identifier for an object).
+-Default hashCode generates different hash codes for different memory addresses
 
 //=======================//=======================//
 
@@ -97,12 +99,14 @@ s3 roll_no is 56, already present in hashtable, so now s1 will compare with s3, 
 
 
 toString() method :
-Default Implementation : 
+- The toString() method is used to return a string representation of an object.
+- Default Implementation : 
 
     public String toString() {
         return getClass().getName() + "@" + Integer.toHexString(hashCode());
     }
 
+- Which means By default it returns a string containing the class name and the memory address of the object.   
     
 
  */

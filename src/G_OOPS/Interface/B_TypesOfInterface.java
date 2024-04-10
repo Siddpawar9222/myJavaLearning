@@ -13,7 +13,7 @@ interface MyFuctional{
 
        }
 } 
-public class C_MarkupInterface{
+public class B_TypesOfInterface{
     public static void main(String[] args) {
         
     }
