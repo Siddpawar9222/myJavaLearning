@@ -50,10 +50,10 @@ public class A2 {
             }
             
             public static void main(String[] args) {
-			   //	A2 a = new A2();
+			   	A2 a = new A2();
 			//-----------------------------------------//
 				 //Child cc = new Child();
-				Child cc1 = new Child("Siddhesh", 545);
+				//Child cc1 = new Child("Siddhesh", 545);
 			}
 }
 

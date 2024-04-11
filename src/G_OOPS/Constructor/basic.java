@@ -31,7 +31,7 @@ class Employee
 
 
 }
-public class basic {
+public class Basic {
     public static void main(String[] args) {
         
         Employee sp = new Employee();

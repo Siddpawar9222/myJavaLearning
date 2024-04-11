@@ -12,7 +12,7 @@ class Employee extends Company{
 	String emp="Siddhesh" ;
 	int id =45 ;
 	String designation="Night Manager";
-
+    
 	public void employeeInfo(){       //* 
        System.out.println("Company Name is " + comName);
 	}

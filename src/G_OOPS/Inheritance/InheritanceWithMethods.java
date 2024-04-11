@@ -18,15 +18,15 @@ class Son extends Father {
 		System.out.println("Im Son Method");
 	}
 
-	@Override
-	public int hashCode() {
-		return 55354634;
-	}
+	// @Override
+	// public int hashCode() {
+	// 	return 55354634;
+	// }
 
 }
 
 class Mother {
-
+      
 }
 
 class Daugher extends Mother {
