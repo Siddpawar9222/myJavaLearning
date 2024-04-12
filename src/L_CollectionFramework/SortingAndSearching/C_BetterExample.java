@@ -69,7 +69,5 @@ public class C_BetterExample {
 		Collections.sort(e1);
 		System.out.println(e1);
 		
-		
-
 	}
 }

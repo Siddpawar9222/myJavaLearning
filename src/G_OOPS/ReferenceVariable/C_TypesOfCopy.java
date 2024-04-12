@@ -123,6 +123,9 @@ Shallow copy :
 Deep Copy :
  Deep copy refers to creating a new object with a new set of fields, such that the new object is a complete and independent copy of the original object, including all nested objects within it.
  Need to write custom logic in clone method .
+ Logic might be : 
+    emp.skills=new ArrayList<>(this.skills);
+      Here we create new intance of ArrayList and add all existing elements inside it. So list independent to old one.
 
 Lazy Copy : 
 Lazy Copy is used when you might generally need Deep Copy, but are not sure whether it is really necessary. Deep Copy is generally an expensive operation. If you do it unconditionally in 100% of cases and then discover that you only needed it in 10% of objects, then the efforts spent on Deep-Copying the other 90% of objects were wasted.
