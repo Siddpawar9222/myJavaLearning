@@ -66,6 +66,6 @@ public class C_TryCatch {
 Java try and catch:
 -The try statement allows you to define a block of code to be tested for errors while it is being executed.
 -The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
--The try and catch keywords come in pairs
+-The try and catch keywords come in pairs.
  */
 

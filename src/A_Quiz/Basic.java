@@ -1,4 +1,4 @@
-package MCQ;
+package A_Quiz;
 
 public class Basic {
      public static void main(String[] args) {

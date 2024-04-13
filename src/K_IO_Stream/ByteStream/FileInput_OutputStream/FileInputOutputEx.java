@@ -1,4 +1,4 @@
-package K_FileHandling;
+package K_IO_Stream.ByteStream.FileInput_OutputStream;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

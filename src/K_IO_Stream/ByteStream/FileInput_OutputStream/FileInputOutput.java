@@ -1,4 +1,4 @@
-package K_FileHandling;
+package K_IO_Stream.ByteStream.FileInput_OutputStream;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -10,8 +10,8 @@ public class FileInputOutput {
 	public static void main(String[] args) throws IOException {
 	   // FileInputStream and FileOutputStream for bytestream
     
-		String INPUT = "src/K_FileHandling/data/Apna-Bana-Le.mp3" ;
-		String OUTPUT = "src/K_FileHandling/data/Apna-Bana-Le(copy).mp3" ;
+		String INPUT = "src/K_IO_Stream/data/Apna-Bana-Le.mp3" ;
+		String OUTPUT = "src/K_IO_Stream/data/Apna-Bana-Le(copy).mp3" ;
 		
 		FileInputStream reader = new FileInputStream(INPUT) ;
 		FileOutputStream writer = new FileOutputStream(OUTPUT) ;

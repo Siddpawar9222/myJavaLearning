@@ -1,9 +1,11 @@
-package K_FileHandling.Deserialization;
+package K_IO_Stream.ByteStream.ObjectInput_OutputSteam.Deserialization;
 
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
 
-import K_FileHandling.serialization.Student;
+import K_IO_Stream.ByteStream.ObjectInput_OutputSteam.serialization.Student;
+
+
 
 public class Deserial {
 
