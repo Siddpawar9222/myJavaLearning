@@ -1,4 +1,4 @@
-package M_Java8.B_Stream;
+package M_Java8.D_Stream;
 
 import java.util.List;
 import java.util.stream.Collectors;

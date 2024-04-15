@@ -19,6 +19,7 @@ class Product {
     }
 }
 
+@FunctionalInterface
 interface ProductFactory {
     Product create(String name, double price);
 }

@@ -1,4 +1,4 @@
-package M_Java8.B_Stream;
+package M_Java8.D_Stream;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,7 +15,7 @@ public class Basic1 {
         s1.forEach(e -> System.out.println(e));
 
         // 2nd ways
-        Stream<String> s2 = Stream.of(new int[] { "satish", "manoj " });
+        Stream<String> s2 = Stream.of(new String[] { "satish", "manoj " });
         s2.forEach(e -> System.out.println(e));
 
         // 3rd way
