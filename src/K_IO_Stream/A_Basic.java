@@ -9,7 +9,7 @@ public class A_Basic {
 
        Scanner sc = new Scanner(System.in);
        int a = sc.nextInt();
-       System.out.println();
+       System.out.println(a);
          
      }
 }
