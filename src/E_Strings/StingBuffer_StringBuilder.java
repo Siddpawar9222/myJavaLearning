@@ -4,11 +4,14 @@ public class StingBuffer_StringBuilder {
 
 	public static void main(String[] args) {
 		
-//     StringBuffer sb = new StringBuffer("Siddhesh ") ;
+     StringBuffer sb = new StringBuffer("Siddhesh ") ;
+
+//Methods of sb
 //     sb.append("Pawar") ;
 //     sb.insert(2, "s") ;
 //     sb.replace(1, 3, "kkk");        //beginIndex and endIndex-1.
 //     sb.delete(5, 10);
+       sb.deleteCharAt(0);
 //     sb.length();
 //     sb.reverse();    
 //     System.out.println(sb);
