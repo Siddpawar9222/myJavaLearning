@@ -14,7 +14,7 @@ public class Serial {
 			//write data in file
 			FileOutputStream fos = new FileOutputStream("src/K_FileHandling/serialization/output.txt");
 			
-			ObjectOutputStream oos = new ObjectOutputStream(fos) ;
+			ObjectOutputStream oos = new ObjectOutputStream(fos) ;   //* 
 			
 			//how to serialize
 			oos.writeObject(student);
@@ -29,3 +29,12 @@ public class Serial {
 	}
 
 }
+/*
+ How we Perform serialization Here ? 
+ - For which thing you want to serialize data ? 
+ - In Which state you want to convert the data ?
+
+ Here 
+ i want to serialize data of object - ObjectOutputStream(fos)
+ state in which want to convert the data - FileOutputStream
+ */
