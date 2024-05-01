@@ -37,7 +37,7 @@ public interface Function<T, R>{
     R apply(T t);
 }
 
-You can see apply method takes T datatype parameter and return R datatype parameter .
+You can see in Using anonymous class  apply method takes T datatype parameter and return R datatype parameter .
 
 
 -The computeIfAbsent(Key, Function) method of HashMap class is used to compute the value for a given key using the given mapping function. Store the computed value for the key in Hashmap if the key is not already associated with a value (or is mapped to null) else null.
