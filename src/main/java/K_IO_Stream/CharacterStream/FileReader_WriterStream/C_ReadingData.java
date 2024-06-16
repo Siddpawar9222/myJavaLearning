@@ -16,7 +16,7 @@ public class C_ReadingData {
 	   writer.write(sc.nextLine()) ;
 	}
      
-     writer.flush();
+     writer.flush();  
      writer.close();
      sc.close();
     

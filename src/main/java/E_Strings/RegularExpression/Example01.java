@@ -84,5 +84,7 @@ public class Example01 {
 //**  [] --> always give one character
 //*** () --> multiple purposes, including grouping, capturing, and defining subpatterns.
 
-
 //https://regex101.com/  Good website to run,debug regex
+
+//Website to see meaning of each character
+//https://www.nv5geospatialsoftware.com/docs/Learning_About_Regular_E.html#:~:text=The%20backslash%20suppresses%20the%20special,('%5C%5C').&text=The%20open%20parenthesis%20indicates%20a%20%22subexpression%22%2C%20discussed%20below.

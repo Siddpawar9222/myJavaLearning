@@ -32,12 +32,12 @@ public class MapTraversal {
 		Set<Map.Entry<String, Integer>> set = tm.entrySet();
 		Iterator<Map.Entry<String, Integer>> i = set.iterator();
 
-		while (i.hasNext()) {
-			Map.Entry<String, Integer> map = i.next();
-			String key = entry.getKey();
-			int value = entry.getValue();
-			System.out.println(key + " " + value);
-		}
+//		while (i.hasNext()) {
+//			Map.Entry<String, Integer> map = i.next();
+//			String key = entry.getKey();
+//			int value = entry.getValue();
+//			System.out.println(key + " " + value);
+//		}
 
 		
 		// since java 8, i have forEach Method
