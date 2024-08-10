@@ -59,7 +59,8 @@ public class TypeCasting2 {
   e.g..
   float a = (float)10.10 ;
   int b = 10 ; 
-  
+
+  float c = a/b ;
   In this case:
   
      a is a float.
@@ -73,6 +74,6 @@ public class TypeCasting2 {
   
 
   //* -- >
-    (float)7/2 * 16/5 ==> 3.5 * 16/5 ==> 56.00/5 (According to Rule 5 ) ==> 11.2  
+    (float)7/2 * 16/5 ==> 3.5 * 16/5 ==> 56.00/5 (According to Rule 5 ) ==> 11.2
   
    */

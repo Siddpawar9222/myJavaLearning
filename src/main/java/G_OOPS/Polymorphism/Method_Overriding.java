@@ -6,7 +6,7 @@ runtime polymorphism
 
 Rules :
  - private ,static, final methods cannot be overridden
- - method overriding is based on dynamic binding at runtime and the static methods are bonded -  - using static binding at compile time. So, we cannot override static methods.
+ - method overriding is based on dynamic binding at runtime and the static methods are bonded  at compile time. So, we cannot override static methods.
  (Another Analogy : For overriding--->instance of class and static--->belongs to class)
 
 */

@@ -26,7 +26,7 @@ public class B_TypesOfInterface{
   -notation for jvm so jvm can understand which task should perform .
   
   -An interface which has only one abstract method is known as a Functional interface .
-   for example, Predicate<T>, Function<T, R> , Consumer<T> etc. 
+   for example, Runnable, Predicate<T>, Function<T, R> , Consumer<T> etc.
   
     Note : Functional interface and markup interface might have default ,static and private methods . only one rule matter for this interface that they must have one and zero abstract method respectively .
     Converter<S, T> interface(Functional) comes in spring best example of it

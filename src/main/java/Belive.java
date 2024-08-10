@@ -1,6 +1,29 @@
 import java.util.*;
-
 public class Belive {
+
+
+    abstract class A{
+         final String m1(){
+             return  "Siddhesh" ;
+         }
+          abstract String m2() ;
+     }
+
+     class B extends A {
+         String m3(){
+             return  "Siddhesh" ;
+         }
+
+         String m4(){
+             return  "Siddhesh" ;
+         }
+
+         @Override
+         String m2() {
+             return null;
+         }
+
+     }
 
     public class TreeNode {
         int val;
@@ -22,31 +45,6 @@ public class Belive {
     }
 
 
-    // public static int getDifferenceInMonths(Date startDate, Date endDate) {
-    // Calendar startCalendar = Calendar.getInstance();
-    // startCalendar.setTime(startDate);
-
-    // Calendar endCalendar = Calendar.getInstance();
-    // endCalendar.setTime(endDate);
-
-    // // Convert the dates to year-month representation
-    // int startYear = startCalendar.get(Calendar.YEAR);
-    // int startMonth = startCalendar.get(Calendar.MONTH);
-    // int endYear = endCalendar.get(Calendar.YEAR);
-    // int endMonth = endCalendar.get(Calendar.MONTH);
-
-    // // Calculate the difference in months
-    // int diffInMonths = (endYear - startYear) * 12 + (endMonth - startMonth);
-
-    // // Check if the end date day is before the start date day
-    // if (endCalendar.get(Calendar.DAY_OF_MONTH) <
-    // startCalendar.get(Calendar.DAY_OF_MONTH)) {
-    // diffInMonths--;
-    // }
-
-    // return diffInMonths;
-    // }
-
     public static void main(String[] args) {
 
         // Calendar calendar = Calendar.getInstance();
@@ -60,10 +58,25 @@ public class Belive {
         // Date specificDate = calendar.getTime();
         // Date todayDate = new Date();
         // System.out.println(getDifferenceInMonths(specificDate, todayDate));
-
-      
-           String str = "a" ;
-           System.err.println(-1%2);
-
     }
 }
+/*
+https://leetcode.com/problems/grumpy-bookstore-owner/solutions/
+https://leetcode.com/problems/sum-of-square-numbers/description/
+https://leetcode.com/problems/most-profit-assigning-work/description/
+https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/submissions/1293747751/
+https://leetcode.com/problems/count-number-of-nice-subarrays/description/?envType=daily-question&envId=2024-06-22
+https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/?envType=daily-question&envId=2024-06-23
+https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/description/
+https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/?envType=daily-question&envId=2024-06-25
+https://leetcode.com/problems/balance-a-binary-search-tree/description/?envType=daily-question&envId=2024-06-26
+https://leetcode.com/problems/find-center-of-star-graph/description/
+https://leetcode.com/problems/maximum-total-importance-of-roads/description/
+https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/
+https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/description/
+https://leetcode.com/problems/number-of-atoms/description/
+https://leetcode.com/problems/maximum-score-from-removing-substrings/description/
+https://leetcode.com/problems/robot-collisions/description/
+2096. Step-By-Step Directions From a Binary Tree Node to Another
+https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/description/
+ */

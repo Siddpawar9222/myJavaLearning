@@ -59,6 +59,11 @@ public class A_Basic {
 }
 
 /*
+In simple language, an interface in Java is like a contract or a set of rules that a class can must agree to follow. It defines a list of methods that a class must implement if it wants to adhere to that interface. it is typically used as a blueprint for other classes to inherit from.
+
+It's like saying, "If you want to be a part of this group or have a certain role, you need to have these specific methods."
+
+
 
 Why interface ? 
 acheive abstraction ,functionality of multiple inheritance, acheive loose coupling

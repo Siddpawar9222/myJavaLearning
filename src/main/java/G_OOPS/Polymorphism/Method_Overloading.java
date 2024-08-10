@@ -6,7 +6,7 @@ If a class has multiple methods having same name but different in parameters, it
 Advantage of method overloading
 Method overloading increases the readability of the program.
 
-There are two ways to overload the method in java
+There are three ways to overload the method in java
    By changing numbers of parameters
    By changing the data type
    Sequence of data-type of parameter

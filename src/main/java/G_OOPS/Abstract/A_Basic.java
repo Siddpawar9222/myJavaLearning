@@ -55,7 +55,10 @@ public class A_Basic {
 }
 
 /*
-why abstract ? 
+ In Java, the "abstract" keyword is used to define abstract classes and methods. An abstract class is a class that cannot be instantiated (meaning you cannot create objects of that class directly), and it is typically used as a blueprint for other classes to inherit from.
+
+
+why abstract ?
 if you want to provide implementation details to your children but don't want to allow an instance of your class to be directly instantiated (which allows you to partially define a class).
 simple contract
 
@@ -73,6 +76,15 @@ If you are extending an abstract class that has an abstract method, you must eit
 
 
 An abstract class is faster than an interface because the interface involves a search before calling any overridden method in Java whereas abstract class can be directly used.
+
+//// ******** Real World Example: *************  ///
+
+Think of it this way: Imagine you want to create a game that involves different types of vehicles, such as cars, bicycles, and motorcycles. All these vehicles share some common characteristics, like having a color, a maximum speed, and a method to start the engine. However, each type of vehicle will also have its own specific behaviors, like a car having a method to open the trunk or a bicycle having a method to ring the bell.
+
+In this scenario, you can create an abstract class called "Vehicle" that contains the common characteristics and methods shared by all vehicles. This abstract class cannot be directly instantiated because it's not meant to represent a specific vehicle; it's just a general blueprint.
+
 */
+
+
 
 
