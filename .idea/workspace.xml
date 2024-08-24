@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="34f7d3b8-bca0-41cb-b576-0dc2762e086c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/A_Basic/TypeCasting2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/A_Basic/TypeCasting2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Belive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Belive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/E_Strings/String_Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/E_Strings/String_Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Abstract/A_Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Abstract/A_Basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Interface/A_Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Interface/A_Basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Interface/B_TypesOfInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Interface/B_TypesOfInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/Method_Overloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/Method_Overloading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/Method_Overriding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/Method_Overriding.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +15,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -113,6 +109,9 @@
       <workItem from="1723007328296" duration="4836000" />
       <workItem from="1723091433801" duration="6476000" />
       <workItem from="1723180665163" duration="6282000" />
+      <workItem from="1724149450872" duration="1725000" />
+      <workItem from="1724422037965" duration="4907000" />
+      <workItem from="1724506818181" duration="4082000" />
     </task>
     <servers />
   </component>

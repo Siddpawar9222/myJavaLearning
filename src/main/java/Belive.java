@@ -1,49 +1,57 @@
-import java.util.*;
 public class Belive {
 
+    class Solution {
 
-    abstract class A{
-         final String m1(){
-             return  "Siddhesh" ;
-         }
-          abstract String m2() ;
-     }
-
-     class B extends A {
-         String m3(){
-             return  "Siddhesh" ;
-         }
-
-         String m4(){
-             return  "Siddhesh" ;
-         }
-
-         @Override
-         String m2() {
-             return null;
-         }
-
-     }
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
+        // a should be larger than b(Euclidean algorithm)
+        private int calculateGDC(int a, int b) {
+            if (b == 0) {
+                return a;
+            }
+            return calculateGDC(b, a % b);
         }
 
-        TreeNode(int val) {
-            this.val = val;
-        }
+        public String fractionAddition(String expression) {
+            int num = 0;
+            int den = 1;
+            int i = 0;
+            int n = expression.length();
+            while (i < n) {       // "-10/13" or "10/13"
+                int currNum = 0;
+                int currDen = 0;
+                boolean isNegative = expression.charAt(i) == '-'; // check first character is -ve or not
 
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
+                // go to next character if there is sign
+                if (expression.charAt(i) == '+' || expression.charAt(i) == '-') {
+                    i++;
+                }
+
+                // form currNum
+                while (i < n && Character.isDigit(expression.charAt(i))) {
+                    currNum = (currNum * 10) + (expression.charAt(i) - '0');
+                    i++;
+                }
+                if (isNegative) {
+                    currNum *= -1;
+                }
+                i++;
+
+                // form currden
+                while (i < n && Character.isDigit(expression.charAt(i))) {
+                    currDen = (currDen * 10) + (expression.charAt(i) - '0');
+                    i++;
+                }
+
+                num = num * currDen + currNum * den;
+                den = currDen * den;
+            }
+
+            int gdc = this.calculateGDC(Math.max(Math.abs(num), den), Math.min(Math.abs(num), den));
+            num /= gdc;
+            den /= gdc;
+
+            return num + "/" + den;
         }
     }
-
 
     public static void main(String[] args) {
 
