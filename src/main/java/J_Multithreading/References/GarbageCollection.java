@@ -35,7 +35,7 @@ Eligibility Criteria for Garbage Collection in Java :
 gc() : static method in System and Runtime class
 finalize() : method in object. this method invoked each time before the object is garbage collected.
 
-When we run System.gc() we suggesting to the Java Virtual Machine (JVM) that it should run the garbage collector .and then GC which invoke finalize method.
+When we run System.gc() we're suggesting to the Java Virtual Machine (JVM) that it should run the garbage collector .and then GC which invoke finalize method.
 However, it's important to note that calling gc() doesn't guarantee immediate garbage collection. The JVM may choose to ignore the request or run garbage collection at its own discretion.
 
 GC is automatic process in java done by jvm .
@@ -44,7 +44,7 @@ GC is automatic process in java done by jvm .
 it's important to note that the finalize() method is considered deprecated since Java 9, and its use is discouraged due to its unpredictable behavior and performance implications.
 
 
-Why Java Had Gave gc() and finalize method since GC is been automatic process  ? 
+Why Java Had Gave gc() and finalize method since GC is being automatic process  ?
 -Gives developers a way to release any resources or perform any necessary cleanup tasks associated with an object before it is removed from memory. 
 - manual intervention for garbage collection is deemed necessary, although it's typically not recommended to rely heavily on manual garbage collection calls.
 

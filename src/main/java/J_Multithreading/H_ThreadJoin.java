@@ -12,7 +12,7 @@ class MedicalTest extends Thread {
 		for (int i = 10; i > 0; i--) {
 
 			try {
-				mainThread.join(); // Until main thread not executing completely wait for thread-0
+				//mainThread.join(); // Until main thread not executing completely wait for thread-0
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
@@ -34,7 +34,7 @@ public class H_ThreadJoin {
 		for (int i = 10; i > 0; i--) {
 
 			try {
-				// mt.join(); //Until thread-0(mt) not executing completely wait for main thread
+				 mt.join(); //Until thread-0(mt) not executing completely wait for main thread
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();

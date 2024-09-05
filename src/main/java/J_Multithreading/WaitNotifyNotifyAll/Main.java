@@ -7,14 +7,11 @@ class Restaurant {
     boolean foodReady = false;
 
     synchronized void waitForFood() throws InterruptedException {
-        while (!foodReady) {
-            wait(); // Thread waits until food is ready
-        }
+        wait(); // Thread waits until food is ready
         System.out.println("Food is ready! Enjoy your meal!");
     }
 
     synchronized void notifyFoodReady() {
-        foodReady = true;
         notifyAll(); // Notifies all waiting threads that food is ready
         //try with notify 
     }
@@ -27,6 +24,7 @@ class Friend extends Thread {
         this.restaurant = restaurant;
     }
 
+    @Override
     public void run() {
         try {
             restaurant.waitForFood();
@@ -50,7 +48,7 @@ public class Main {
 
         // Simulate food preparation
         try {
-            Thread.sleep(2000); // Wait for 2 seconds
+            Thread.sleep(7000); // Wait for 2 seconds
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

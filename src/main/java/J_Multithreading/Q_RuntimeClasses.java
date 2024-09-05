@@ -8,7 +8,6 @@ public class Q_RuntimeClasses {
 		System.out.println(Runtime.getRuntime().availableProcessors());
 		System.out.println(Runtime.getRuntime().totalMemory());
 		System.out.println(Runtime.getRuntime().freeMemory());
-
 	}
 
 }

@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="34f7d3b8-bca0-41cb-b576-0dc2762e086c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Belive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Belive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/J_Multithreading/H_ThreadJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/J_Multithreading/H_ThreadJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/J_Multithreading/I_ThreadInterrupt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/J_Multithreading/I_ThreadInterrupt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/J_Multithreading/P_DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/J_Multithreading/P_DeadLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/J_Multithreading/Q_RuntimeClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/J_Multithreading/Q_RuntimeClasses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/J_Multithreading/References/GarbageCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/J_Multithreading/References/GarbageCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/J_Multithreading/WaitNotifyNotifyAll/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/J_Multithreading/WaitNotifyNotifyAll/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +56,65 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.String_Methods">
-    <configuration name="Belive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Belive" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="F_SleepThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="J_Multithreading.F_SleepThread" />
       <module name="MyJavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="J_Multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String_Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E_Strings.String_Methods" />
+    <configuration name="G_Threadyield" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="J_Multithreading.G_Threadyield" />
       <module name="MyJavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="E_Strings.*" />
+          <option name="PATTERN" value="J_Multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="H_ThreadJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="J_Multithreading.H_ThreadJoin" />
+      <module name="MyJavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="J_Multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="I_ThreadInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="J_Multithreading.I_ThreadInterrupt" />
+      <module name="MyJavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="J_Multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="J_Multithreading.WaitNotifyNotifyAll.Main" />
+      <module name="MyJavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="J_Multithreading.WaitNotifyNotifyAll.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,8 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.String_Methods" />
-        <item itemvalue="Application.Belive" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.I_ThreadInterrupt" />
+        <item itemvalue="Application.H_ThreadJoin" />
+        <item itemvalue="Application.G_Threadyield" />
+        <item itemvalue="Application.F_SleepThread" />
       </list>
     </recent_temporary>
   </component>
@@ -112,6 +165,7 @@
       <workItem from="1724149450872" duration="1725000" />
       <workItem from="1724422037965" duration="4907000" />
       <workItem from="1724506818181" duration="4082000" />
+      <workItem from="1725242149161" duration="8514000" />
     </task>
     <servers />
   </component>

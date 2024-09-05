@@ -23,6 +23,7 @@ public class I_ThreadInterrupt {
       ThreadInterrupt ti = new ThreadInterrupt();
       ti.start();
       ti.interrupt();
+	  System.out.println("main thread is executed...");
 	}
 
 }
