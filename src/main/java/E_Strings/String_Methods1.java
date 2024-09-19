@@ -40,7 +40,7 @@ public class String_Methods1 {
  Summary : 
   x.compareTo(y) : 
   -ve : x is smaller than y 
-  +ve : x is greater than 
+  +ve : x is greater than y
  */
       
  /*
