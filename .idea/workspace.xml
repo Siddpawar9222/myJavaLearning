@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34f7d3b8-bca0-41cb-b576-0dc2762e086c" name="Changes" comment="">
+    <list default="true" id="34f7d3b8-bca0-41cb-b576-0dc2762e086c" name="Changes" comment="compareTo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/J_Multithreading/H_ThreadJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/J_Multithreading/H_ThreadJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/J_Multithreading/I_ThreadInterrupt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/J_Multithreading/I_ThreadInterrupt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/J_Multithreading/P_DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/J_Multithreading/P_DeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/J_Multithreading/Q_RuntimeClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/J_Multithreading/Q_RuntimeClasses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/J_Multithreading/References/GarbageCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/J_Multithreading/References/GarbageCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/J_Multithreading/WaitNotifyNotifyAll/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/J_Multithreading/WaitNotifyNotifyAll/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Belive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Belive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +161,18 @@
       <workItem from="1724422037965" duration="4907000" />
       <workItem from="1724506818181" duration="4082000" />
       <workItem from="1725242149161" duration="8514000" />
+      <workItem from="1725590466564" duration="3605000" />
+      <workItem from="1726714873601" duration="2295000" />
     </task>
+    <task id="LOCAL-00001" summary="compareTo">
+      <option name="closed" value="true" />
+      <created>1726720131144</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726720131144</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +188,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="compareTo" />
+    <option name="LAST_COMMIT_MESSAGE" value="compareTo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyJavaLearning$Belive.ic" NAME="Belive Coverage Results" MODIFIED="1718530352793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

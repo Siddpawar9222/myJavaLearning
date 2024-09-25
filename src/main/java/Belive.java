@@ -1,56 +1,47 @@
+import java.util.HashSet;
+import java.util.Set;
+
 public class Belive {
 
-    class Solution {
 
-        // a should be larger than b(Euclidean algorithm)
-        private int calculateGDC(int a, int b) {
-            if (b == 0) {
-                return a;
-            }
-            return calculateGDC(b, a % b);
+    public class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
         }
 
-        public String fractionAddition(String expression) {
-            int num = 0;
-            int den = 1;
-            int i = 0;
-            int n = expression.length();
-            while (i < n) {       // "-10/13" or "10/13"
-                int currNum = 0;
-                int currDen = 0;
-                boolean isNegative = expression.charAt(i) == '-'; // check first character is -ve or not
-
-                // go to next character if there is sign
-                if (expression.charAt(i) == '+' || expression.charAt(i) == '-') {
-                    i++;
-                }
-
-                // form currNum
-                while (i < n && Character.isDigit(expression.charAt(i))) {
-                    currNum = (currNum * 10) + (expression.charAt(i) - '0');
-                    i++;
-                }
-                if (isNegative) {
-                    currNum *= -1;
-                }
-                i++;
-
-                // form currden
-                while (i < n && Character.isDigit(expression.charAt(i))) {
-                    currDen = (currDen * 10) + (expression.charAt(i) - '0');
-                    i++;
-                }
-
-                num = num * currDen + currNum * den;
-                den = currDen * den;
-            }
-
-            int gdc = this.calculateGDC(Math.max(Math.abs(num), den), Math.min(Math.abs(num), den));
-            num /= gdc;
-            den /= gdc;
-
-            return num + "/" + den;
+        ListNode(int val) {
+            this.val = val;
         }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+    }
+
+    public ListNode modifiedList(int[] nums, ListNode head) {
+        Set<Integer> set = new HashSet<>();
+        for(int num : nums){
+             set.add(num);
+        }
+        ListNode ref = new ListNode(-1);
+        ref.next = head;
+
+        ListNode prev = ref;
+        ListNode curr = head;
+        while (curr != null) {
+           if(set.contains(curr.val)){
+               prev.next = curr.next ;
+               curr = curr.next ;
+           }else{
+                prev = curr ;
+                curr = curr.next ;
+           }
+        }
+
+        return ref.next ;
     }
 
     public static void main(String[] args) {
