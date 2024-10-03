@@ -59,10 +59,6 @@ public class WrapperClasses {
 		//System.out.println(du.getClass().getName()); //Not Working
 		Object o = (Object)du ;          //downcasting
 		System.out.println(o.getClass().getName());
-		
-		
-		
-		
 	}
 
 }
